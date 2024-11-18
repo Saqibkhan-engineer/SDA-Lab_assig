@@ -8,14 +8,14 @@
  *
  * @author FA22-BSE-005
  */
-// Abstract class for transport use cases
+
 abstract class TransportUseCase {
     String name;
     String paymentMethod;
     String flexibility;
     String schedule;
 
-    // Constructor
+
     public TransportUseCase(String name, String paymentMethod, String flexibility, String schedule) {
         this.name = name;
         this.paymentMethod = paymentMethod;
