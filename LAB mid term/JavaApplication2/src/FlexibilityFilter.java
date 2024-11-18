@@ -9,7 +9,7 @@ interface TransportFilter {
     void apply(TransportUseCase useCase);
 }
 
-// Concrete Filters
+
 class FlexibilityFilter implements TransportFilter {
     @Override
     public void apply(TransportUseCase useCase) {
